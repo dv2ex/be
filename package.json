@@ -1,0 +1,40 @@
+{
+  "name": "dv2ex",
+  "version": "0.0.7",
+  "description": "dv2ex backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "bin": {
+    "dv2ex": "./bin/cli.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^3.3.0",
+    "@koalex/koa-json-rpc": "^1.0.3",
+    "bunyan": "^1.8.15",
+    "config": "^3.3.7",
+    "ipfs-core": "0.14.0",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^10.1.1",
+    "koa-static": "^5.0.0",
+    "md5": "^2.3.0",
+    "pouchdb": "^7.3.0",
+    "pouchdb-adapter-memory": "^7.3.0",
+    "pouchdb-find": "^7.3.0",
+    "uuid": "^8.3.2",
+    "walkdir": "^0.4.1"
+  },
+  "resolution": {
+    "blockstore-core": "1.0.2"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "devDependencies": {
+    "jest": "^28.1.1"
+  }
+}

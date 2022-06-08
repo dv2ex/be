@@ -1,0 +1,9 @@
+{
+  "mfsbase": "/dv2ex",
+  "port": 4698,
+  "ipfs": {
+    "EXPERIMENTAL": { "ipnsPubsub": true },
+    "silent": true
+  },
+  "db": {}
+}

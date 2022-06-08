@@ -1,0 +1,12 @@
+{
+  "ipfs": {
+    "config": {
+      "Routing": {
+        "Type": "none"
+      }
+    }
+  },
+  "db": {
+    "adapter": "memory"
+  }
+}
